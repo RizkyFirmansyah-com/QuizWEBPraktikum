@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #dddddd, #212121);
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+.profile-name {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold ;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    background: white;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.social-icons {
+    margin-top: 20px;
+    padding: 15px;
+}
+
